@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret One');
+
 body {
   margin: 0px;
   background-color: black;
+  font-family: 'Poiret One', cursive;
 }
 
 #smoke {
@@ -13,8 +16,8 @@ body {
   width: 100%;
   text-align: center;
   color: lightgrey;
-  font-size: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  font-weight: 600;
 }
 
 .clickEffect {

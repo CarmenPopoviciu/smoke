@@ -11,7 +11,7 @@ let smoke = new Smoke(canvas, WIDTH, HEIGHT);
 
 let loadingDiv = document.createElement('div');
 loadingDiv.setAttribute('id', 'instructions');
-loadingDiv.textContent = 'Initialize...';
+loadingDiv.textContent = 'Hold your horses, initializing...';
 document.body.appendChild(loadingDiv);
 
 let refreshBtn: HTMLElement = <HTMLElement>document.getElementsByClassName('refresh-btn')[0];
