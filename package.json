@@ -1,0 +1,18 @@
+{
+  "name": "smoke",
+  "version": "1.0.0",
+  "description": "Perlin noise on the background of some ML generated music",
+  "dependencies": {
+    "@magenta/music": "1.2.2",
+    "@types/lodash": "4.14.117",
+    "lodash": "4.17.11",
+    "parcel-bundler": "1.10.3",
+    "tone-piano": "0.0.12"
+  },
+  "scripts": {
+    "dev": "parcel index.html"
+  },
+  "devDependencies": {
+    "typescript": "^3.1.3"
+  }
+}

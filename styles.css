@@ -1,0 +1,50 @@
+body {
+  margin: 0px;
+  background-color: black;
+}
+
+#smoke {
+  background-color: black;
+}
+
+#instructions {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: lightgrey;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.clickEffect {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  background-color: pink;
+  animation: clickAnimation 0.4s ease-out;
+}
+
+@keyframes clickAnimation {
+  0% {
+    width: 0;
+    height: 0;
+    opacity: 0.8;
+  }
+
+  100% {
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+  }
+}
+
+.refresh-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+} 
